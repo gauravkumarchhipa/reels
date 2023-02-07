@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ----custom css--- by jugnu---*/
+
+
+html{
+  scroll-snap-type: y mandatory;
+}
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black; 
+}
+.app_top>h1{
+  text-align: center;
+  color: white;
+}
+.app_logo{
+  height: 12vh;
+}
+.app_videos{
+  position: relative;
+  height: 65vh;
+  background-color: white;
+  width: 70%;
+  border-radius: 20px;
+  max-width: 450px;
+  max-height: 1200px;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+/* hide scrollber for chrome, safari & opera */
+.app_videos::-webkit-scrollbar{
+  display: none;
+}
+/* hide scrollber for IE, EDGE & firefox */
+
+.app_videos{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.large-font{
+  font-size:xxx-large;
+}
+.top-20{
+  position:relative;
+  top:20vh;
+}
+ion-icon.active{
+  animation:like 0.5s 1;
+  fill:red;
+  stroke:none;
+}
+ion-icon{
+  fill:transparent;
+  stroke:black;
+  stroke-width:30;
+  transition:all 0.5s;
+}
+
+
+@-webkit-keyframes like {
+  0%   { transform: scale(1); }
+  90%   { transform: scale(1.2); }
+  100% { transform: scale(1.1); }
+}

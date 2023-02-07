@@ -1,0 +1,159 @@
+.videoFooter{
+    position: relative;
+    margin-left: 30px;
+    bottom: 133px;
+}
+.videoFooter_text{
+    position: absolute;
+    bottom: 19px;
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+    right: 144px;
+}
+.avtarImg{
+    position: absolute;
+    top: 15px;
+}
+.videoFooter_text > h3{
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+.videoFooter_text > h3> button{
+    color: white;
+    font-weight: 900;
+    text-transform: inherit;
+}
+.videoFooter_actions{
+    display: flex;
+    position: relative;
+    width: 95%;
+    color: white;
+    justify-content: space-between;
+}
+.videoFooter_actionsLeft >.MuiSvgIcon-root {  
+    padding: 0 10px;
+
+}
+.videoFooter_actionsRight {  
+    display: flex;
+
+}
+.videoFooter_stat {  
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+.videoFooter_stat > p {  
+   margin-left: 3px;
+
+}
+.videoFooter_ticker > .ticker {
+    height: fit-content;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+.videoFooter_ticker h1{
+    padding-top: 7px;    
+    font-size: 12px;
+    color: white;
+}
+.comments {
+    margin-top: 20px;
+  }
+  
+  .comments-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .comments-container {
+    margin-top: 40px;
+  }
+  
+  .comment-form-title {
+    font-size: 22px;
+  }
+  
+  .comment-form-textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 1px solid rgb(107, 114, 12);
+  }
+  
+  .comment-form-button {
+    font-size: 16px;
+    padding: 8px 16px;
+    background: rgb(59, 130, 246);
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .comment-form-button:hover:enabled {
+    cursor: pointer;
+    background: rgb(37, 99, 235);
+  }
+  
+  .comment-form-button:disabled {
+    opacity: 0.7;
+    cursor: default;
+  }
+  
+  .comment-form-cancel-button {
+    margin-left: 10px;
+  }
+  
+  .comment {
+    display: flex;
+    margin-bottom: 28px;
+  }
+  
+  .comment-image-container {
+    margin-right: 12px;
+  }
+  
+  .comment-image-container img {
+    border-radius: 50px;
+  }
+  
+  .comment-right-part {
+    width: 100%;
+  }
+  
+  .comment-content {
+    display: flex;
+  }
+  
+  .comment-author {
+    margin-right: 8px;
+    font-size: 20px;
+    color: rgb(59, 130, 246);
+  }
+  
+  .comment-text {
+    font-size: 18px;
+  }
+  
+  .comment-actions {
+    display: flex;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  .comment-action {
+    margin-right: 8px;
+  }
+  
+  .comment-action:hover {
+    text-decoration: underline;
+  }
+  
+  .replies {
+    margin-top: 20px;
+  }
